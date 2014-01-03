@@ -5,7 +5,7 @@
 ## Introduction ##
 An engine detector for javascript and related require-js plugins. Detect the engine (node, browser) used to run the current script.
 
-## Usage ## 
+## Usage ##
 
 ```js
 var engine = require('enginedetector') ( or see installation below )
@@ -31,7 +31,7 @@ engine.ifNotBrowser(function( ){
 
 })
 
-``
+```
 
 
 ## Install ##
