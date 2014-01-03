@@ -8,7 +8,7 @@ An engine detector for javascript and related require-js plugins. Detect the eng
 ## Usage ## 
 
 ```js
-var engine = require('engine-detector') ( or see installation below )
+var engine = require('enginedetector') ( or see installation below )
 engine.isNode // boolean
 engine.isBrowser // boolean
 
