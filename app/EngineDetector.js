@@ -14,7 +14,7 @@ define( function() {
         detect: function() {
 
             try { // do not detect node with 'module' because it is node defined with the r.js loader
-                require( 'path' ) // todo
+                process.argv // todo
                 this._setAsNode()
             } catch(e){
             }
