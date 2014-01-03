@@ -3,9 +3,8 @@
     "version": "0.0.2",
     "main": [
         "app",
-        "app/ifEngineIsNode",
-        "app/ifEngineIsBrowser",
-        "app/fakeWindowOnNode"
+        "app/ifEngineIsNode.js",
+        "app/ifEngineIsBrowser.js"
     ],
     "licenses": [
         {
