@@ -2,9 +2,10 @@
     "name": "engineDetector",
     "version": "0.0.4",
     "main": [
-        "app/engineDetector.js",
         "app/ifEngineIsNode.js",
-        "app/ifEngineIsBrowser.js"
+        "app/ifEngineIsBrowser.js",
+        "app",
+        "app.js"
     ],
     "licenses": [
         {
