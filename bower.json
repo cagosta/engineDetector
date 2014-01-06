@@ -1,6 +1,6 @@
 {
     "name": "engineDetector",
-    "version": "0.0.17",
+    "version": "0.0.18",
     "main": [
         "app/ifEngineIsNode.js",
         "app/ifEngineIsBrowser.js",
