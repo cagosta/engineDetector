@@ -1,6 +1,6 @@
 {
   "name": "enginedetector",
-  "version": "0.0.15",
+  "version": "0.0.16",
   "private": false,
   "keywords": [],
   "contributors": [
@@ -56,7 +56,7 @@
     }
   ],
   "scripts": {
-    "postinstall": "grunt postinstall",
+    "postinstall": "node app/bower_install.js",
     "test": "grunt test"
   },
   "engines": {
