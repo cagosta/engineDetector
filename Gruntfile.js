@@ -28,23 +28,9 @@ GruntInitializer.prototype = {
     },
 
     loadGruntDependencies: function() {
-        [
-            "grunt-contrib-connect",
-            "grunt-contrib-watch",
-            "grunt-bower-requirejs",
-            "grunt-contrib-requirejs",
-            "grunt-text-replace",
-            "grunt-contrib-copy",
-            "grunt-contrib-stylus",
-            "grunt-open",
-            "grunt-release",
-            "grunt-exec",
-            "grunt-jsdoc",
-            "grunt-bump",
-            "grunt-saucelabs"
-        ].forEach(function( gruntModuleName ){
-            this.grunt.loadNpmTasks( gruntModuleName )
-        }.bind( this ))
+
+        require( 'matchdep' ).filter( 'grunt-*' ).forEach( this.grunt.loadNpmTasks )
+
     },
 
     initializeGrunt: function() {
