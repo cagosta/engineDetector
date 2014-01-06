@@ -4,7 +4,8 @@
     "main": [
         "app/ifEngineIsNode.js",
         "app/ifEngineIsBrowser.js",
-        "app"
+        "app/window.js",
+        "app/engine.js"
     ],
     "licenses": [
         {
