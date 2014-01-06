@@ -1,5 +1,5 @@
 define( [
-    'engineDetector/engineDetector'
+    'engineDetector/engineDetector',
  ], function( engineDetector ) {
 
     var jsdom
