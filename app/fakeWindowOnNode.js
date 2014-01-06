@@ -18,7 +18,7 @@ define( [
                 jsdom.env(
                     "http://nodejs.org/dist/",
                     function( errors, window ) {
-                        console.log( 'window', window )
+                        
                         global.window = window // is this right ? dont think so ..
                         req( [ name ], function( module ) {
                             onLoad( module )

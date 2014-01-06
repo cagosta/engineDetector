@@ -57,7 +57,7 @@
     }
   ],
   "scripts": {
-    "postinstall": "node app/bower_install.js",
+    "postinstall": "node postinstall.js",
     "test": "grunt test"
   },
   "engines": {
