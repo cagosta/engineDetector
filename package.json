@@ -1,6 +1,6 @@
 {
   "name": "enginedetector",
-  "version": "0.0.16",
+  "version": "0.0.17",
   "private": false,
   "keywords": [],
   "contributors": [
@@ -34,7 +34,7 @@
   "dependencies": {
     "requirejs": "~2.1.9"
   },
-  "peerDependencies":  {
+  "peerDependencies": {
     "bower": "~1.x",
     "jsdom": "~0.8.10"
   },
