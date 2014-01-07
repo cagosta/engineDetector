@@ -5,8 +5,7 @@
         "app/ifEngineIsNode.js",
         "app/ifEngineIsBrowser.js",
         "app/window.js",
-        "app/engine.js",
-        "app/engineDetector.js"
+        "app/engine.js"
     ],
     "licenses": [
         {
