@@ -34,6 +34,9 @@ engine.ifNotBrowser(function( ){
 ```
 
 
+## Demo ##
+See [cagosta.github.io/engineDetector](http://cagosta.github.io/engineDetector) 
+
 ## Install ##
 
 engineDetector is coded as [AMD module](http://requirejs.org/docs/whyamd.html) but can be installed with npm, bower or old-fashioned src=".min.js".
